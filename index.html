@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pradeep C | Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0a192f;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+      animation: fadeIn 2s ease-in;
+    }
+    header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease-in-out;
+    }
+    header img:hover {
+      transform: scale(1.05);
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      background: #fff;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      animation: slideIn 0.8s ease;
+    }
+    h2 {
+      color: #0a192f;
+      border-bottom: 2px solid #0a192f;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      padding: 6px 0;
+    }
+    a {
+      color: #0a192f;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skills, .soft-skills, .languages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills div, .soft-skills div, .languages div {
+      background-color: #e0e0e0;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      transition: background-color 0.3s ease;
+    }
+    .skills div:hover, .soft-skills div:hover, .languages div:hover {
+      background-color: #ccc;
+    }
+    figure {
+      text-align: center;
+      margin: 20px 0;
+    }
+    figure img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    figure figcaption {
+      margin-top: 8px;
+      font-style: italic;
+      font-size: 0.9em;
+    }
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background-color: #0a192f;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+    .back-to-top:hover {
+      background-color: #112d4e;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      .skills div, .soft-skills div, .languages div {
+        font-size: 0.85em;
+        padding: 6px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/Pradeep.jpg"
+     alt="Pradeep C Photo"
+     style="width: 130px; height: 130px; border-radius: 50%; object-fit: unset; border: 4px solid white; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+
+
+    <h1>Pradeep C</h1>
+    <p>Programmer Analyst | Data Enthusiast | Aspiring Software Developer</p>
+  </header>
+  <div class="container">
+    <section>
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:chandranpradeep70@gmail.com">chandranpradeep70@gmail.com</a></li>
+        <li>Phone: 9688896167</li>
+        <li>GitHub: <a href="https://github.com/PradeepCECE" target="_blank">github.com/PradeepCECE</a></li>
+        <li>LinkedIn: <a href="https://linkedin.com/in/pradeep-c-58749025a" target="_blank">linkedin.com/in/pradeep-c</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.E., Electronics and Communication</strong> – MKCE, Karur (2022-2026) | CGPA: 7.7 (till 5th semester)</li>
+        <li><strong>HSC</strong> – KSR Matric Hr. Sec. School, Namakkal (2022) | 89.5%</li>
+        <li><strong>SSLC</strong> – KSR Matric Hr. Sec. School, Namakkal (2020) | 98%</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Smart Irrigation using IoT</strong> <br> Duration: 2023–2024 <br> Led a team to design an automated irrigation system using environmental sensors. Improved water usage efficiency by 30%.</li>
+        <figure>
+          <img src="images/conference.jpg" alt="Conference Presentation">
+          <figcaption>Presented at Technical Conference</figcaption>
+        </figure>
+        <li><strong>Condition-Based Monitoring for Tunnel Booster Fans</strong> <br> Duration: 2024–2025 <br> Built a real-time monitoring tool with sensor data for failure prediction and optimization.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Cybersecurity and Privacy (NPTEL, 2024 – 62%)</li>
+        <figure>
+          <img src="images/cybersecurity.jpg" alt="Cybersecurity Certificate">
+          <figcaption>Cybersecurity Certificate</figcaption>
+        </figure>
+        <li>Blockchain and Its Applications (NPTEL, 2025 – 60%)</li>
+        <figure>
+          <img src="images\blockchain.jpg" alt="Blockchain Certificate">
+          <figcaption>Blockchain Certificate</figcaption>
+        </figure>
+        <li>Java Programming (2024 – Coursera)</li>
+        <li>Algorithms I (2025 – Coursera)</li>
+        <li>CCNA: Switching, Routing and Wireless Essentials (2025 – Cisco)</li>
+        <figure>
+          <img src="images/cisco.jpg" alt="Cisco Certificate">
+          <figcaption>Cisco CCNA Certificate</figcaption>
+        </figure>
+        <li>STEP Plus – The Hindu Group</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <div>Python</div><div>SQL</div><div>Java</div><div>C</div><div>Django</div>
+        <div>PyTorch</div><div>Excel</div><div>Git</div><div>React</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Soft Skills</h2>
+      <div class="soft-skills">
+        <div>Analytical Thinking</div><div>Time Management</div><div>Leadership</div><div>Adaptability</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <div class="languages">
+        <div>Tamil (Fluent)</div>
+        <div>English (Fluent)</div>
+        <div>Japanese (Basic, N5)</div>
+      </div>
+      <figure>
+        <img src="images/n5.jpg" alt="Japanese Certificate">
+        <figcaption>Japanese Language Certificate</figcaption>
+      </figure>
+    </section>
+  </div>
+
+  <button class="back-to-top" onclick="scrollToTop()">&#8679;</button>
+
+  <script>
+    const topBtn = document.querySelector('.back-to-top');
+    window.onscroll = () => {
+      topBtn.style.display = document.documentElement.scrollTop > 100 ? 'block' : 'none';
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  </script>
+  <hr> 
+  
+</body>
+</html>
